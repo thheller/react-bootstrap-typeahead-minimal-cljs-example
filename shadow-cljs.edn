@@ -1,0 +1,16 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[reagent "0.8.0-alpha2"]
+  [re-frame "0.10.2"]]
+
+ :builds
+ {:app {:target :browser
+        :modules {:main {:entries [react-bootstrap-typeahead-minimal.core]}}
+        :devtools
+        {:http-root "public"
+         :http-port 8500
+         :after-load react-bootstrap-typeahead-minimal.core/mount-root}}
+  }}

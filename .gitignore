@@ -1,9 +1,12 @@
 /*.log
 /target
 /*-init.clj
-/resources/public/js/compiled
+/public/js
 out
 node_modules/
 package.json
 package-lock.json
 pom.xml
+.DS_Store
+*.iml
+/.idea

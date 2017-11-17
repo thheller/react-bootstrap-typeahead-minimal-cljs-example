@@ -4,7 +4,6 @@
 /public/js
 out
 node_modules/
-package.json
 package-lock.json
 pom.xml
 .DS_Store
